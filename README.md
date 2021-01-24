@@ -7,11 +7,11 @@ OSS download support OSS global configuration,parameter set,remote file download
 ## Getting started
 
 - Global Configuration
-![image](https://github.com/zjshashou/oss-download-plugin/blob/main/image/configuration.png)
+![image](https://github.com/zjshashou/oss-download-plugin/raw/main/image/configuration.png)
 - Build Parameter
-![image](https://github.com/zjshashou/oss-download-plugin/blob/main/image/buildParameter.png)
+![image](https://github.com/zjshashou/oss-download-plugin/raw/main/image/buildParameter.png)
 - Build After
-![image](https://github.com/zjshashou/oss-download-plugin/blob/main/image/local.png)
+![image](https://github.com/zjshashou/oss-download-plugin/raw/main/image/local.png)
 
 ## Issues
 
