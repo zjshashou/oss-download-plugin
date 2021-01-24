@@ -1,4 +1,4 @@
-# com.killer.jenkins.oss
+# oss download plugin
 
 [![Build Status](https://ci.jenkins.io/job/Plugins/job/com.killer.jenkins.oss-plugin/job/master/badge/icon)](https://ci.jenkins.io/job/Plugins/job/com.killer.jenkins.oss-plugin/job/master/)
 [![Contributors](https://img.shields.io/github/contributors/jenkinsci/com.killer.jenkins.oss-plugin.svg)](https://github.com/jenkinsci/com.killer.jenkins.oss-plugin/graphs/contributors)
@@ -8,7 +8,7 @@
 
 ## Introduction
 
-TODO Describe what your plugin does here
+OSS download support OSS global configuration,parameter set,remote file download
 
 ## Getting started
 
