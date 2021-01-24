@@ -1,10 +1,4 @@
-# oss download plugin
-
-[![Build Status](https://ci.jenkins.io/job/Plugins/job/com.killer.jenkins.oss-plugin/job/master/badge/icon)](https://ci.jenkins.io/job/Plugins/job/com.killer.jenkins.oss-plugin/job/master/)
-[![Contributors](https://img.shields.io/github/contributors/jenkinsci/com.killer.jenkins.oss-plugin.svg)](https://github.com/jenkinsci/com.killer.jenkins.oss-plugin/graphs/contributors)
-[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/com.killer.jenkins.oss.svg)](https://plugins.jenkins.io/com.killer.jenkins.oss)
-[![GitHub release](https://img.shields.io/github/release/jenkinsci/com.killer.jenkins.oss-plugin.svg?label=changelog)](https://github.com/jenkinsci/com.killer.jenkins.oss-plugin/releases/latest)
-[![Jenkins Plugin Installs](https://img.shields.io/jenkins/plugin/i/com.killer.jenkins.oss.svg?color=blue)](https://plugins.jenkins.io/com.killer.jenkins.oss)
+# OSS Download Plugin
 
 ## Introduction
 
@@ -12,8 +6,10 @@ OSS download support OSS global configuration,parameter set,remote file download
 
 ## Getting started
 
-TODO Tell users how to configure your plugin here, include screenshots, pipeline examples and 
-configuration-as-code examples.
+- Global Configuration
+
+- Build Parameter
+- Local Dir file
 
 ## Issues
 
