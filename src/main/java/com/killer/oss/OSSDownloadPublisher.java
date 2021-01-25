@@ -172,21 +172,19 @@ public class OSSDownloadPublisher extends Notifier implements SimpleBuildStep {
 
     private File getFileName(String localPath, String remotePath) {
 
+        String lastPath = localPath;
         int i = localPath.lastIndexOf("/");
-        String temp = localPath;
-        if (i > -1) {
-            temp = localPath.substring(i);
+        if (i > -1 && i < localPath.length() - 1) {
+            lastPath = localPath.substring(i + 1);
         }
-        if (temp.indexOf(".") > -1) return new File(localPath);
+        if (lastPath.indexOf(".") > -1) return new File(localPath);
 
-        i = remotePath.lastIndexOf(".");
+        i = remotePath.lastIndexOf("/");
         String ext = remotePath;
         if (i > -1) {
-            ext = remotePath.substring(i);
+            ext = remotePath.substring(i + 1);
         }
-        localPath = localPath + ext;
-
-        return new File(localPath);
+        return new File(localPath, ext);
     }
 
     @Override
